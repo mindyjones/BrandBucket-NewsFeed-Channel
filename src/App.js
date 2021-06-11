@@ -8,7 +8,7 @@ import {
   Link
 } from "react-router-dom";
 import Home from './components/Home/Home';
-
+import Feedback from './components/Feedback/Feedback';
 function App() {
 
   return (
@@ -16,6 +16,9 @@ function App() {
       <Switch>
         <Route exact path="/">
           <Home/>
+        </Route>
+        <Route path="/feedback">
+          <Feedback/>
         </Route>
       </Switch>
     </Router>
