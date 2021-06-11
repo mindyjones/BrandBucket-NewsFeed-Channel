@@ -1,0 +1,16 @@
+.post-grid-inside{
+    /* display: grid;
+    grid-template-columns: repeat(3, 1fr); */
+}
+.card-title{
+    font-size: 1rem;
+}
+.text-summery{
+    font-size: .8rem;
+    /* font-weight: 400; */
+}
+.text-date{
+    font-size: .7rem;
+    align-items: center;
+    text-align: center;
+}

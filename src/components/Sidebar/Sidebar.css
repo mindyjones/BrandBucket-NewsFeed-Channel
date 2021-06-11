@@ -1,0 +1,55 @@
+.sidebar{
+    height: 100vh;
+    box-shadow: 13px 0px 20px -12px #3a3a3a;
+    position: relative;
+}
+.sidebar-inside{
+    position: absolute;
+    top:8%;
+}
+.hero-profile {
+    /* top:8%; */
+    width:300px;
+    /* position: absolute; */
+    text-align: center;
+    background-color: white;
+    padding:5px 20px;
+
+}
+.hero-profile img{
+    width:50px;
+    height: 50px;
+
+}
+.hero-profile p{
+    line-height: 5px;
+}
+.hero-profile .desc{
+    margin-top: 5px;
+}
+.sidebar-feedback{
+    display: block;
+    text-align: center;
+    background-color: white;
+    padding:5px 20px;
+    width:300px;
+    padding: 20px 0px;
+
+}
+.sidebar-feedback button{
+    outline: none;
+    border: none;
+    background-color: #2efaa5;
+    color:black;
+    font-weight: 600;
+}
+.sidebar-feedback h4{
+    font-weight: 750;
+}
+
+.grid-view, .tiles-view{
+    width:40px;
+    color:rgb(2, 98, 177);
+    margin-left:10px;
+    cursor:pointer;
+}
